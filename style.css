@@ -283,6 +283,10 @@ footer a:hover {
 }
 
 @media screen and (max-width: 767px) {
+	header {
+		height: unset;
+	}
+
 	.top-links {
 		width: 60%;
 		min-width: unset;
