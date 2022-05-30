@@ -1,0 +1,374 @@
+
+:root {
+	font-size: 14px;
+}
+
+body {
+	font-family: 'Open Sans', 'Raleway', sans-serif;
+	background-color: hsl(217, 28%, 15%);
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+header {
+	width: 100%;
+	height: 10vh;
+	min-height: 40px;
+}
+
+header img{
+	height: 2.5rem;
+	min-height: 95%;
+}
+
+.top-links {
+	width: 20%;
+	min-width: 250px;
+	flex-wrap: wrap;
+}
+
+.top-links a {
+	color: white;
+	text-decoration: none;
+}
+
+.top-links a:active {
+	text-decoration: underline;
+}
+
+#intro-msg {
+	padding: 5rem 0 10rem;
+	text-align: center;
+	position: relative;
+	background-image:  url("images/bg-curvy-desktop.svg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#intro-msg article {
+	width: 50%;
+	margin: 0 auto;
+	min-width: 600px;
+}
+
+#intro-msg img {
+	width: 100%;
+}
+
+#intro-msg h1 {
+	margin: 2rem 0;
+	line-height: 1.5;
+}
+
+#intro-msg p {
+	width: 92%;
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding: 0 10%;
+}
+
+#intro-msg a {
+	width: 35%;
+	min-width: 220px;
+	display: block;
+	padding: 10px 0;
+	margin: 0 auto;
+	border-radius: 20px;
+	text-align: center;
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+#intro-msg a:active {
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+}
+
+#details-section {
+	padding: 10px 15%;
+	background-color: hsl(218, 28%, 13%);
+}
+
+#details-section figure {
+	margin-bottom: 5rem;
+}
+
+#details-section img {
+	margin-bottom: 3rem;
+}
+
+#stay-productive {
+	padding: 10px 8%;
+	background-color: hsl(218, 28%, 13%);
+}
+
+#stay-productive img, #stay-productive article {
+	padding: 0 1.5rem;
+}
+
+#stay-productive h1 {
+	width: 70%;
+	min-width: 350px;
+}
+
+#stay-productive a {
+	text-decoration: none;
+	color: hsl(176, 68%, 64%);
+	border-bottom: 1px solid hsl(176, 68%, 64%);
+	padding-bottom: 5px;
+} 
+
+#users-comments-section {
+	position: relative;
+	padding: 10rem 7.5% 18rem;
+	background-color: hsl(218, 28%, 13%);
+}
+
+.users-comments {
+	font-size: 0.85rem;
+	width: 31%;
+	margin-bottom: 2rem;
+	padding: 25px 20px 20px;
+	background-color: hsl(219, 30%, 18%);
+	box-shadow: 10px 6px 4px rgba(50, 50, 50, 0.2);
+}
+
+.users-comments figure {
+	display: flex;
+	height: 3rem;
+	margin: 0;
+}
+
+.users-comments figure p {
+	font-weight: 500;
+	margin: 0;
+}
+
+.users-comments figure span {
+	font-size: 0.8rem;
+}
+
+.users-comments img {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+
+#subscription-section {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -20%;
+	padding: 40px 5%;
+	width: 55%;
+	min-width: 650px;
+	margin: 0 auto;
+	background-color: hsl(217, 28%, 15%);
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 6px 10px 7px rgba(20, 20, 20, 0.2);
+}
+
+#subscription-section p {
+	margin: 2rem 0;
+}
+
+#subscription-section form {
+	width: 100%;
+	margin: 0;
+}
+
+#subscription-section form #input-container {
+	border-radius: 20px;
+	min-width: 63%;
+	background-color: white;
+	padding: 7px 10px;
+}
+
+#subscription-section input {
+	width: 100%;
+	display: inline-block;
+	outline: none;
+	border: 0;
+	font-size: 0.9rem;
+	height: 0.9rem;
+}
+
+#subscription-section button {
+	border-radius: 20px;
+	height: 40px;
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+	font-weight: 700;
+	color: white;
+	border: 0;
+	padding: 0 10px;
+}
+
+footer {
+	padding: 12rem 7% 14px;
+	background-color: hsl(216, 53%, 9%);
+}
+
+#logo-inside-footer {
+	height: 2rem;
+}
+
+footer section {
+	margin: 2rem 0 !important;
+}
+
+footer article {
+	width: 25% !important;
+	min-width: 250px;
+}
+
+footer li {
+	list-style: none;
+	margin-bottom: 1rem;
+}
+
+footer a {
+	text-decoration: none;
+	color: inherit;
+}
+
+footer a:active {
+	font-weight: bold;
+}
+
+footer a:hover {
+	color: white;
+}
+
+#social-links {
+	display: inline-block;
+	width: unset;
+}
+
+#social-links div {
+	--color: white;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	margin-right: 10px;
+	height: 2.5rem;
+	width: 2.5rem;
+	border: 1px solid var(--color);
+	border-radius: 50%;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+#social-links ion-icon {
+	height: 1.2rem;
+	color: white;
+}
+
+#social-links div:active {
+	--color: hsl(176, 68%, 64%);
+}
+
+#social-links ion-icon:active {
+	color: hsl(176, 68%, 64%);
+}
+
+@media screen and (max-width: 767px) {
+	.top-links {
+		width: 60%;
+		min-width: unset;
+		padding-left: 10px;
+	}
+
+	#intro-msg {
+		background-image: url("images/bg-curvy-mobile.svg");
+	}
+
+	#intro-msg article {
+		min-width: 90%;
+	}
+
+	#intro-msg article img {
+		width: 95%;
+	}
+
+	#intro-msg p {
+		margin-top: 0;
+		margin-bottom: 25px;
+		padding: 0;
+	}
+
+	#intro-msg a {
+		width: 80%;
+	}
+
+	#details-section {
+		padding: 10px 7.5%;
+	}
+
+	#stay-productive {
+		padding: 10px 7.5%;
+	}
+
+	#stay-productive img, #stay-productive article {
+		padding: 0;
+	}
+
+	#stay-productive img {
+		width: 100%;
+	}
+
+	#stay-productive h1 {
+		font-size: 1.3rem;
+		margin-top: 2rem;
+		width: unset;
+		min-width: unset;
+	}
+
+	#subscription-section button {
+		width: 100%;
+	}
+
+	.users-comments {
+		width: 80%;
+		margin-right: auto;
+		margin-left:  auto;
+	}
+
+	#subscription-section {
+		width: 85%;
+		min-width: unset;
+	}
+
+	footer {
+		padding: 16rem 5% 14px;
+	}
+
+	#logo-inside-footer {
+		margin-left: 0.5rem;
+	}
+
+	footer article {
+		min-width: unset !important;
+		width: 100% !important;
+	}
+}
+
+.visibility-if-just-loaded {
+	visibility: hidden;
+	transform: translateY(20vh);
+}
+
+.animated-to-screen {
+	transform: translateY(0);
+	transition: 0.9s;
+}
